@@ -25,7 +25,7 @@
   ],
   "Servers": [
     {
-      "Name": "BRASIL SAO PAULO 1",
+      "Name": "BRASIL 1",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br1.gdsshvpn.xyz",
@@ -35,7 +35,7 @@
       "PASS": ""
     },
     {
-      "Name": "BRASIL SAO PAULO 2",
+      "Name": "BRASIL 2",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br-2.gdsshvpn.xyz",
