@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "YET SSH",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -25,7 +25,7 @@
   ],
   "Servers": [
     {
-      "Name": "BRASIL SAO PAULO 1 | PLUS",
+      "Name": "BRASIL SAO PAULO 1",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br1.gdsshvpn.xyz",
@@ -35,7 +35,7 @@
       "PASS": ""
     },
     {
-      "Name": "BRASIL SAO PAULO 2 | PLUS",
+      "Name": "BRASIL SAO PAULO 2",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br-2.gdsshvpn.xyz",
