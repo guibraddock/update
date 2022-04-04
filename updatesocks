@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "YET SSH",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -54,7 +54,7 @@
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "VIVO TLS 02",
@@ -64,7 +64,7 @@
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM PROXY 01",
@@ -74,7 +74,7 @@
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM TLS 02",
@@ -84,7 +84,7 @@
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM TLS 03",
@@ -94,7 +94,7 @@
       "TlsIP": "m.timbancavirtual.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM TLS 04",
@@ -104,7 +104,7 @@
       "TlsIP": "cdnjs.cloudflare.com",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM TLS 05",
@@ -114,7 +114,7 @@
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM WS 06",
@@ -124,7 +124,7 @@
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM WS 07",
@@ -134,7 +134,7 @@
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM WS 08",
@@ -144,7 +144,7 @@
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "TIM WS 09",
@@ -154,7 +154,7 @@
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "SEM PROMOCAO"
     },
     {
       "Name": "CLARO TLS 01",
@@ -164,57 +164,37 @@
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "SEM PROMOCAO"
     },
     {
-      "Name": "CLARO TLS 02",
-      "FLAG": "claro",
-      "Payload": "GET ssl://parceirosclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO SSL 03",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "dns.web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 04",
+      "Name": "CLARO SSL 02",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.waze.com",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "SSL WAZE COM PROMOCAO"
     },
     {
-      "Name": "CLARO SSL 05",
+      "Name": "CLARO SSL 03",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "web.whatsapp.com",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "SSL WEB WHATSAPP COM PROMOCAO"
     },
     {
-      "Name": "CLARO SSL 06",
+      "Name": "CLARO SSL 04",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "m.twitter.com",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "SSL TWITTER COM PROMOCAO"
     },
     {
       "Name": "OI PROXY 01",
@@ -234,7 +214,7 @@
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Tlsws"
+      "Info": "SEM PROMOCAO"
     }
   ]
 }
