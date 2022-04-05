@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.9",
+  "Version": "2.0.0",
   "ReleaseNotes": "YET SSH",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -11,13 +11,7 @@
       "Porta": "7300"
     },
     {
-      "Porta": "7400"
-    },
-    {
       "Porta": "7200"
-    },
-    {
-      "Porta": "7100"
     },
     {
       "Porta": "8799"
@@ -25,7 +19,7 @@
   ],
   "Servers": [
     {
-      "Name": "BRASIL SAO PAULO 1",
+      "Name": "BRASIL AWS",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br1.gdsshvpn.xyz",
@@ -35,7 +29,7 @@
       "PASS": ""
     },
     {
-      "Name": "BRASIL SAO PAULO 2",
+      "Name": "BRASIL AZURE",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br-2.gdsshvpn.xyz",
