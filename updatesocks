@@ -1,11 +1,7 @@
 {
-  "Version": "2.0.4",
+  "Version": "2.0.5",
   "ReleaseNotes": "YET SSH UPDATE
-⚙️ CONFIGURAÇÃO 2.0.4
-🗓️ DATA 06/04/2022
-😎 EQUIPE: YET SSH VPN
-
-⚠️ REINICIE O APP APÓS ATUALIZAR !",
+🗓️ DATA 06/04/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetsshvpn@gmail.com",
