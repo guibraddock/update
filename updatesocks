@@ -1,12 +1,12 @@
 {
-  "Version": "2.0.5",
-  "ReleaseNotes": "YET SSH UPDATE
-🗓️ DATA 06/04/2022",
+  "Version": "3.0.0",
+  "ReleaseNotes": "YET SSH UPDATE",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetsshvpn@gmail.com",
-  "UrlContato": "https://t.me/yetssh",
+  "UrlContato": "https://yetssh.com/",
   "UrlTermos": "https://yetssh.com/",
+  "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7300"
@@ -24,6 +24,7 @@
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br1.gdsshvpn.xyz",
+      "CheckUser": "http://vps74250.cloudpublic.com.br:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -34,6 +35,7 @@
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br-2.gdsshvpn.xyz",
+      "CheckUser": "http://vps74250.cloudpublic.com.br:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -154,7 +156,7 @@
     {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
@@ -162,14 +164,14 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 02 COM PROMOCAO",
+      "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.waze.com",
-      "TlsIP": "",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "Tlsws"
     },
     {
       "Name": "CLARO SSL 03 COM PROMOCAO",
@@ -194,7 +196,7 @@
     {
       "Name": "OI TLS",
       "FLAG": "oi",
-      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
