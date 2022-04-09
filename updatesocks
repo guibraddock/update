@@ -1,41 +1,43 @@
 {
-  "Version": "3.0.0",
-  "ReleaseNotes": "YET SSH UPDATE",
+  "Version": "3.0.1",
+  "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
-  "EmailFeedback": "yetsshvpn@gmail.com",
+  "EmailFeedback": "yetssh@gmail.com",
   "UrlContato": "https://yetssh.com/",
   "UrlTermos": "https://yetssh.com/",
   "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
   "Udp": [
     {
       "Porta": "7300"
     },
     {
-      "Porta": "7200"
+      "Porta": "8799"
     },
     {
-      "Porta": "8799"
+      "Porta": "7200"
     }
   ],
-  "Servers": [
+  
+    "Servers": [
     {
-      "Name": "BRASIL AWS",
-      "TYPE": "PREMIUM",
+      "Name": "SERVIDOR BRASIL 01",
+      "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br1.gdsshvpn.xyz",
-      "CheckUser": "http://vps74250.cloudpublic.com.br:8989/checkUser",
+      "ServerIP": "brasil01.gdsshvpn.xyz",
+      "CheckUser": "http://brasil-01.gdsshvpn.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "BRASIL AZURE",
-      "TYPE": "PREMIUM",
+      "Name": "SERVIDOR BRASIL 02",
+      "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "br-2.gdsshvpn.xyz",
-      "CheckUser": "http://vps74250.cloudpublic.com.br:8989/checkUser",
+      "ServerIP": "brasil02.gdsshvpn.xyz",
+      "CheckUser": "http://brasil-02.gdsshvpn.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -172,26 +174,6 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO SSL 03 COM PROMOCAO",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 04 COM PROMOCAO",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.twitter.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
     },
     {
       "Name": "OI TLS",
