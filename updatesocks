@@ -1,12 +1,13 @@
 {
-  "Version": "1.0.2",
+  "Version": "3.0.5",
   "ReleaseNotes": "NOVA ATUALIZAÇÃO",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
   "UrlContato": "https://yetssh.com/",
-  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "UrlTermos": "https://yetssh.com/",
   "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
   "Udp": [
     {
       "Porta": "7300"
@@ -31,17 +32,6 @@
       "USER": "",
       "PASS": ""
     },
-    {
-      "Name": "SERVIDOR BRASIL 02",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "brasil02.gdsshvpn.xyz",
-      "CheckUser": "http://brasil-02.gdsshvpn.xyz:8989/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    }
   ],
   "Networks": [
     {
