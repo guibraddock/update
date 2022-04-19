@@ -1,6 +1,6 @@
 {
   "Version": "3.0.6",
-  "ReleaseNotes": "ATUALIZAÇÃO 18/04/22",
+  "ReleaseNotes": "ATUALIZAÇÃO 19/04/22",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -127,7 +127,7 @@
     {
       "Name": "CLARO TLS 03",
       "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "Payload": "GET ws://chaveiroclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "chaveiroclaro.com.br",
       "TlsIP": "chaveiroclaro.com.br",
       "ProxyIP": "",
@@ -137,7 +137,7 @@
     {
       "Name": "CLARO TLS 04",
       "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "Payload": "GET ws://gersonclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "gersonclaro.com.br",
       "TlsIP": "gersonclaro.com.br",
       "ProxyIP": "",
