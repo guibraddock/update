@@ -1,6 +1,6 @@
 {
-  "Version": "3.0.9",
-  "ReleaseNotes": "ATUALIZAÇÃO DIA 20/04",
+  "Version": "4.0.0",
+  "ReleaseNotes": "ATUALIZAÇÃO DIA 26/04",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -13,9 +13,6 @@
       "Porta": "7300"
     },
     {
-      "Porta": "8799"
-    },
-    {
       "Porta": "7200"
     }
   ],
@@ -25,8 +22,8 @@
       "Name": "SERVIDOR BRASIL 01",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "brasil02.gdsshvpn.xyz",
-      "CheckUser": "http://brasil-02.gdsshvpn.xyz:8989/checkUser",
+      "ServerIP": "brasil01.gdsshvpn.xyz",
+      "CheckUser": "http://brasil-01.gdsshvpn.xyz:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -105,11 +102,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO NOVA SNI",
+      "Name": "CLARO SNI descomplica",
       "FLAG": "claro",
-      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -130,26 +127,6 @@
       "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "parceirosclaro.com.br",
       "TlsIP": "parceirosclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TLS 03",
-      "FLAG": "claro",
-      "Payload": "GET ws://chaveiroclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "chaveiroclaro.com.br",
-      "TlsIP": "chaveiroclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TLS 04",
-      "FLAG": "claro",
-      "Payload": "GET ws://gersonclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "gersonclaro.com.br",
-      "TlsIP": "gersonclaro.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
