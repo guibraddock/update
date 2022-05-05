@@ -107,7 +107,7 @@
       "Payload": "GET ws://jenkins.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "jenkins.cloud.caixa.gov.br",
       "TlsIP": "jenkins.cloud.caixa.gov.br",
-      "ProxyIP": "",
+      "ProxyIP": "104.16.56.6",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
@@ -117,7 +117,7 @@
       "Payload": "GET ws://piloto-mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "piloto-mobilidade.cloud.caixa.gov.br",
       "TlsIP": "piloto-mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "",
+      "ProxyIP": "104.16.56.6",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
