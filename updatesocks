@@ -1,6 +1,6 @@
 {
-  "Version": "4.0.2",
-  "ReleaseNotes": "ATUALIZAÇÃO DIA 02/05",
+  "Version": "4.0.3",
+  "ReleaseNotes": "ATUALIZAÇÃO DIA 05/05",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -92,11 +92,31 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SNI descomplica",
+      "Name": "CLARO NOVA SNI descomplica",
       "FLAG": "claro",
       "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO NOVA SNI 01",
+      "FLAG": "claro",
+      "Payload": "GET ws://jenkins.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "jenkins.cloud.caixa.gov.br",
+      "TlsIP": "jenkins.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO NOVA SNI 02",
+      "FLAG": "claro",
+      "Payload": "GET ws://piloto-mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "piloto-mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "piloto-mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
