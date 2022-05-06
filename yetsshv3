@@ -1,1 +1,137 @@
 
+{
+  "Version": "1.0.1",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/yetsshv3",
+  "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
+  "EmailFeedback": "yetssh@gmail.com",
+  "UrlContato": "https://yetssh.com/",
+  "UrlTermos": "https://yetssh.com/",
+  "CheckUser": "true",
+  "UdpPort": "7300;7200",
+  "Servers": [
+    {
+      "Name": "SERVIDOR BRASIL | 01",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "brasil01.gdsshvpn.xyz",
+      "CheckUser": "http://brasil-01.gdsshvpn.xyz:8989/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO PROXY 01",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM PROXY 01",
+      "FLAG": "tim",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM TLS 02",
+      "FLAG": "tim",
+      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 03",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 04",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO NOVA SNI descomplica",
+      "FLAG": "claro",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO NOVA SNI 01",
+      "FLAG": "claro",
+      "Payload": "GET ws://jenkins.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "jenkins.cloud.caixa.gov.br",
+      "TlsIP": "jenkins.cloud.caixa.gov.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO NOVA SNI 02",
+      "FLAG": "claro",
+      "Payload": "GET ws://piloto-mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "piloto-mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "piloto-mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO TLS 01",
+      "FLAG": "claro",
+      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "parceirosclaro.com.br",
+      "TlsIP": "parceirosclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI PROXY 01",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    }
+  ]
+}
