@@ -1,6 +1,6 @@
 {
-  "Version": "4.0.5",
-  "ReleaseNotes": "ATUALIZAÇÃO 10/05/2022 ✅",
+  "Version": "4.0.6",
+  "ReleaseNotes": "ATUALIZAÇÃO 11/05/2022 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -44,7 +44,7 @@
       "Name": "SERVIDOR RESERVA",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "brasilrev.gdsshvpn.xyz",
+      "ServerIP": "brasilreserva.gdsshvpn.xyz",
       "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -114,21 +114,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS NOVA",
+      "Name": "CLARO TLS",
       "FLAG": "claro",
-      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "atendimento.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO TLS 02",
-      "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
