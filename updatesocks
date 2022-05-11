@@ -1,6 +1,6 @@
 {
-  "Version": "4.0.4",
-  "ReleaseNotes": "ATUALIZAÇÃO DIA 10/05",
+  "Version": "4.0.5",
+  "ReleaseNotes": "ATUALIZAÇÃO 10/05/2022 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -14,10 +14,21 @@
     },
     {
       "Porta": "7200"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
     }
   ],
-  
-    "Servers": [
+  "Servers": [
     {
       "Name": "SERVIDOR BRASIL 01",
       "TYPE": "premium",
@@ -28,7 +39,18 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
+    },
+    {
+      "Name": "SERVIDOR RESERVA",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "brasilrev.gdsshvpn.xyz",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
   ],
   "Networks": [
     {
@@ -52,41 +74,51 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 01",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.18.94",
+      "Name": "VIVO TLS 03",
+      "FLAG": "vivo",
+      "Payload": "GET ws://compre.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "compre.vivo.com.br",
+      "TlsIP": "compre.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 02",
+      "Name": "TIM TLS",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.19.94",
+      "Payload": "GET / HTTP/1.1[crlf]Host: consultatim.com.br[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "consultatim.com.br",
+      "TlsIP": "consultatim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM NOVA SNI 02",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: app.timbancavirtual.com.br [crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "app.timbancavirtual.com.br",
+      "TlsIP": "app.timbancavirtual.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
         {
-      "Name": "TIM TLS 03",
+      "Name": "TIM NOVA SNI 03",
       "FLAG": "tim",
-      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "emartim.com.br",
-      "TlsIP": "emartim.com.br",
+      "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 01",
+      "Name": "CLARO TLS NOVA",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "atendimento.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -102,12 +134,22 @@
       "Info": "Tlsws"
     },
     {
+      "Name": "OI TLS",
+      "FLAG": "oi",
+      "Payload": "GET ws://hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "hbogo.com.br",
+      "TlsIP": "hbogo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
       "Name": "OI TLS 01",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "104.16.51.91",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     }
