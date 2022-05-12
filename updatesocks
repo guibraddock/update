@@ -1,6 +1,6 @@
 {
-  "Version": "4.0.6",
-  "ReleaseNotes": "ATUALIZAÇÃO 11/05/2022 ✅",
+  "Version": "4.0.8",
+  "ReleaseNotes": "ATUALIZAÇÃO 12/05/2022 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -86,9 +86,9 @@
     {
       "Name": "TIM TLS",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: consultatim.com.br[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "consultatim.com.br",
-      "TlsIP": "consultatim.com.br",
+      "Payload": "GET / HTTP/1.1[crlf]Host: app.emartim.com.br[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "app.emartim.com.br",
+      "TlsIP": "app.emartim.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -96,9 +96,9 @@
     {
       "Name": "TIM NOVA SNI 02",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: app.timbancavirtual.com.br [crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "app.timbancavirtual.com.br",
-      "TlsIP": "app.timbancavirtual.com.br",
+      "Payload": "GET / HTTP/1.1[crlf]Host: emartim.com.br [crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "emartim.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -122,6 +122,16 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO TLS 02",
+      "FLAG": "claro",
+      "Payload": "GET ws://combomultinetnow.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "188.144.97.10",
+      "ProxyPort": "",
+      "Info": "Proxy"
     },
     {
       "Name": "OI TLS",
