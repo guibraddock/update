@@ -1,5 +1,5 @@
 {
-  "Version": "4.0.8",
+  "Version": "4.0.9",
   "ReleaseNotes": "ATUALIZAÇÃO 12/05/2022 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -106,10 +106,10 @@
         {
       "Name": "TIM NOVA SNI 03",
       "FLAG": "tim",
-      "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "m.timbancavirtual.com.br",
-      "ProxyIP": "",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "104.16.19.94",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
