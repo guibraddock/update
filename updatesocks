@@ -41,7 +41,7 @@
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR | ADM/REVENDAS",
+      "Name": "SERVIDOR | ADMINISTRADOR",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "brasilreserva.gdsshvpn.xyz",
@@ -84,11 +84,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY 02",
+      "Name": "TIM PROXY",
       "FLAG": "tim",
-      "Payload": "GET wss://brasil01.gdsshvpn.xyz [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
+      "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com ",
+      "TlsIP": "cdnjs.cloudflare.com",
       "ProxyIP": "104.16.18.94",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -104,7 +104,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 02",
+      "Name": "CLARO TLS 02 | Mais Rápida 🚀",
       "FLAG": "claro",
       "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "atendimento.descomplica.com.br",
