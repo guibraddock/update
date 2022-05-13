@@ -136,9 +136,9 @@
     {
       "Name": "OI TLS",
       "FLAG": "oi",
-      "Payload": "GET ws://hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "hbogo.com.br",
-      "TlsIP": "hbogo.com.br",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
