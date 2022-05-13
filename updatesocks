@@ -1,6 +1,6 @@
 {
-  "Version": "5.0.2",
-  "ReleaseNotes": "ATUALIZAÇÃO 13/05/2022 ✅",
+  "Version": "5.0.3",
+  "ReleaseNotes": "ATUALIZAÇÃO 14/05/2022 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -41,7 +41,7 @@
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR RESERVA",
+      "Name": "SERVIDOR | ADM/REVENDAS",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "brasilreserva.gdsshvpn.xyz",
@@ -91,7 +91,7 @@
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
       "ProxyPort": "",
-      "Info": "Proxy"
+      Info": "Proxy"
     },
     {
       "Name": "TIM PROXY 02",
@@ -100,16 +100,6 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM NOVA SNI 03",
-      "FLAG": "tim",
-      "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "m.timbancavirtual.com.br",
-      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
