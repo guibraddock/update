@@ -1,5 +1,5 @@
 {
-  "Version": "5.0.7",
+  "Version": "5.0.8",
   "ReleaseNotes": "ATUALIZAÇÃO 13/05 12:40H✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -116,10 +116,10 @@
     {
       "Name": "TIM TLS 04",
       "FLAG": "tim",
-      "Payload": "GET wss://assets.fluke.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.19.94",
+      "Payload": "GET ws://www.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "www.timbancavirtual.com.br",
+      "TlsIP": "104.16.133.83",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Proxy"
     },
