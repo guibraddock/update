@@ -1,6 +1,6 @@
 {
-  "Version": "5.0.6",
-  "ReleaseNotes": "ATUALIZAÇÃO 13/05/2022 ✅",
+  "Version": "5.0.5",
+  "ReleaseNotes": "ATUALIZAÇÃO SEXTA 13/05 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -86,7 +86,7 @@
     {
       "Name": "TIM TLS",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "cdnjs.cloudflare.com ",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "",
