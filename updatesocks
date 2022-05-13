@@ -1,6 +1,6 @@
 {
-  "Version": "6.0.0",
-  "ReleaseNotes": "ATUALIZAÇÃO 13/05 ✅",
+  "Version": "6.0.1",
+  "ReleaseNotes": "Cloud Easy 6.0.1 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -84,57 +84,17 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 01",
+      "Name": "TIM TLS | Ultra rápida ⚡",
       "FLAG": "tim",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "cdnjs.cloudflare.com ",
+      "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-{
+    {
       "Name": "TIM TLS 02",
-      "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com ",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tl"
-    },
-    {
-      "Name": "TIM TLS 03",
-      "FLAG": "tim",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "cdnjs.cloudflare.com ",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-{
-      "Name": "TIM TLS",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: app.emartim.com.br[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "app.emartim.com.br",
-      "TlsIP": "app.emartim.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM NOVA SNI 02",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: emartim.com.br [crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "emartim.com.br",
-      "TlsIP": "emartim.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-        {
-      "Name": "TIM NOVA SNI 03",
       "FLAG": "tim",
       "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "m.timbancavirtual.com.br",
@@ -142,16 +102,6 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM TLS 04",
-      "FLAG": "tim",
-      "Payload": "GET ws://www.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "www.timbancavirtual.com.br",
-      "TlsIP": "104.16.133.83",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Proxy"
     },
     {
       "Name": "CLARO TLS",
