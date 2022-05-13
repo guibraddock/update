@@ -96,9 +96,19 @@
     {
       "Name": "TIM PROXY 02",
       "FLAG": "tim",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.16.18.94",
+      "Payload": "GET wss://brasil01.gdsshvpn.xyz [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM NOVA SNI 03",
+      "FLAG": "tim",
+      "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -136,9 +146,9 @@
     {
       "Name": "OI TLS 01",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
+      "Payload": "GET ws://intranet.telefonica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "intranet.telefonica.com.br",
+      "TlsIP": "104.18.4.161",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
