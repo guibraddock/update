@@ -1,6 +1,6 @@
 {
-  "Version": "5.0.0",
-  "ReleaseNotes": "ATUALIZAÇÃO 12/05/2022 ✅",
+  "Version": "5.0.1",
+  "ReleaseNotes": "ATUALIZAÇÃO 13/05/2022 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -96,10 +96,10 @@
     {
       "Name": "TIM PROXY 02",
       "FLAG": "tim",
-      "Payload": "GET wss://brasil01.gdsshvpn.xyz [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.18.94",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
