@@ -1,6 +1,6 @@
 {
-  "Version": "5.0.9",
-  "ReleaseNotes": "ATUALIZAÇÃO 13/05 12:30H✅",
+  "Version": "6.0.0",
+  "ReleaseNotes": "ATUALIZAÇÃO 13/05 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
@@ -110,6 +110,36 @@
       "SNI": "cdnjs.cloudflare.com ",
       "TlsIP": "cdnjs.cloudflare.com",
       "ProxyIP": "104.16.18.94",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+{
+      "Name": "TIM TLS",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: app.emartim.com.br[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "app.emartim.com.br",
+      "TlsIP": "app.emartim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM NOVA SNI 02",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: emartim.com.br [crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "emartim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+        {
+      "Name": "TIM NOVA SNI 03",
+      "FLAG": "tim",
+      "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
