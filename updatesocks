@@ -1,5 +1,5 @@
 {
-  "Version": "5.0.1",
+  "Version": "5.0.2",
   "ReleaseNotes": "ATUALIZAÇÃO 13/05/2022 ✅",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -104,16 +104,6 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM NOVA SNI 03",
-      "FLAG": "tim",
-      "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "m.timbancavirtual.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
       "Name": "CLARO TLS",
       "FLAG": "claro",
       "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
@@ -126,12 +116,12 @@
     {
       "Name": "CLARO TLS 02",
       "FLAG": "claro",
-      "Payload": "GET ws://combomultinetnow.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "188.144.97.10",
+      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Proxy"
+      "Info": "Tlsws"
     },
     {
       "Name": "OI TLS",
