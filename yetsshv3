@@ -1,17 +1,36 @@
-
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "",
-  "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/yetsshv3",
+  "Version": "6.0.3",
+  "ReleaseNotes": "Cloud Easy 6.0.3 ✅",
+  "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "yetssh@gmail.com",
   "UrlContato": "https://yetssh.com/",
   "UrlTermos": "https://yetssh.com/",
   "CheckUser": "true",
-  "UdpPort": "7300;7200",
+  "FormatCheck": "yyyymmdd",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
   "Servers": [
     {
-      "Name": "SERVIDOR BRASIL | 01",
+      "Name": "SERVIDOR BR01",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "brasil01.gdsshvpn.xyz",
@@ -21,20 +40,21 @@
       "USER": "",
       "PASS": ""
     },
+    {
+      "Name": "SERVIDOR | ADM",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "brasilreserva.gdsshvpn.xyz",
+      "CheckUser": "",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
   ],
   "Networks": [
     {
-      "Name": "VIVO PROXY 01",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO TLS 02",
+      "Name": "VIVO TLS 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
@@ -44,19 +64,39 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY 01",
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
+      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "vigia.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO TLS 03",
+      "FLAG": "vivo",
+      "Payload": "GET ws://compre.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "compre.vivo.com.br",
+      "TlsIP": "compre.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS | Ultra rápida ⚡",
       "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM TLS 02",
       "FLAG": "tim",
-      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "m.timbancavirtual.com.br",
       "TlsIP": "m.timbancavirtual.com.br",
       "ProxyIP": "",
@@ -64,74 +104,74 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 03",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM TLS 04",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.19.94",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO NOVA SNI descomplica",
+      "Name": "CLARO TLS",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "no.descomplica.com.br",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO TLS 02 | Mais Rápida 🚀",
+      "FLAG": "claro",
+      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO NOVA SNI 01",
+      "Name": "🔴CLARO 3",
       "FLAG": "claro",
-      "Payload": "GET ws://jenkins.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "jenkins.cloud.caixa.gov.br",
-      "TlsIP": "jenkins.cloud.caixa.gov.br",
-      "ProxyIP": "104.16.56.6",
+      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "boom4u.com.br",
+      "TlsIP": "boom4u.com.br",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+   },
     {
-      "Name": "CLARO NOVA SNI 02",
+      "Name": "🔴CLARO 4",
       "FLAG": "claro",
-      "Payload": "GET ws://piloto-mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "piloto-mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "piloto-mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "104.16.56.6",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "www.boom4u.com.br",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+   },
     {
-      "Name": "CLARO TLS 01",
+      "Name": "🔴CLARO 5",
       "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "172.67.201.105",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "OI TLS",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "OI PROXY 01",
+      "Name": "OI TLS 01",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET ws://intranet.telefonica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "intranet.telefonica.com.br",
+      "TlsIP": "104.18.4.161",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     }
   ]
 }
