@@ -1,19 +1,21 @@
 {
-  "Version": "6.0.3",
-  "ReleaseNotes": "Cloud Easy 6.0.3 ✅",
-  "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/updatesocks",
+  "Version": "1.0.0",
+  "ReleaseNotes": "Nova atualizacao disponivel",
+  "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/cloudeasyv1",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
-  "EmailFeedback": "yetssh@gmail.com",
-  "UrlContato": "https://yetssh.com/",
-  "UrlTermos": "https://yetssh.com/",
+  "EmailFeedback": "cloudeasy@cloudeasybrasil.com.br",
+  "UrlContato": "https://t.me/cloudeasyoficial",
+  "UrlTermos": "https://telegra.ph/Pol%C3%ADtica-e-termos-de-uso-05-31",
   "CheckUser": "true",
-  "FormatCheck": "yyyymmdd",
   "Udp": [
     {
-      "Porta": "7300"
+      "Porta": "7100"
     },
     {
       "Porta": "7200"
+    },
+    {
+      "Porta": "7300"
     },
     {
       "Porta": "7400"
@@ -30,29 +32,40 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR BR01",
+      "Name": "CloudEasy | CLIENTES PREMIUM",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "brasil01.gdsshvpn.xyz",
-      "CheckUser": "http://brasil-01.gdsshvpn.xyz:8989/checkUser",
+      "CheckUser": "http://brasil-01.gdsshvpn.xyz:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR | ADM",
+      "Name": "CloudEasy | GRÁTIS DIÁRIO",
+      "TYPE": "free",
+      "FLAG": "hk.png",
+      "ServerIP": "ca01.gdsshvpn.xyz",
+      "CheckUser": "http://ca-01.gdsshvpn.xyz:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "CloudEasy | ADMINISTRADOR",
       "TYPE": "premium",
-      "FLAG": "br.png",
+      "FLAG": "adm.png",
       "ServerIP": "brasilreserva.gdsshvpn.xyz",
       "CheckUser": "",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
+    }
   ],
-  "Networks": [
+   "Networks": [
     {
       "Name": "VIVO TLS 01",
       "FLAG": "vivo",
