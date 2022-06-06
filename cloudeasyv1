@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "Nova atualizacao disponivel \n 04/06/2022 \n CloudEasy Serviços na Internet ©",
+  "Version": "1.0.2",
+  "ReleaseNotes": "Nova atualizacao disponivel \n 06/06/2022 \n CloudEasy Serviços na Internet ©",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/cloudeasyv1",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "cloudeasy@cloudeasybrasil.com.br",
@@ -97,7 +97,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS | Ultra rápida ⚡",
+      "Name": "TIM TLS",
       "FLAG": "tim",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "cdnjs.cloudflare.com",
@@ -112,6 +112,36 @@
       "Payload": "GET ws://m.timbancavirtual.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "m.timbancavirtual.com.br",
       "TlsIP": "m.timbancavirtual.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM TLS 03",
+      "FLAG": "tim",
+      "Payload": "GET ws://www.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "www.c6bank.com.br",
+      "TlsIP": "www.c6bank.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM TLS 04",
+      "FLAG": "tim",
+      "Payload": "GET ws://auth.of.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "auth.of.c6bank.com.br",
+      "TlsIP": "auth.of.c6bank.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM TLS 04",
+      "FLAG": "tim",
+      "Payload": "GET ws://bobcontents.bennuapp.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "bobcontents.bennuapp.com.br",
+      "TlsIP": "bobcontents.bennuapp.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
