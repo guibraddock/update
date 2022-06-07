@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "Nova atualizacao disponivel \n 06/06/2022 \n CloudEasy Serviços na Internet ©",
+  "Version": "1.0.4",
+  "ReleaseNotes": "Nova atualizacao disponivel \n 07/06/2022 \n CloudEasy Serviços na Internet ©",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/cloudeasyv1",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "cloudeasy@cloudeasybrasil.com.br",
@@ -118,6 +118,16 @@
     },
     {
       "Name": "TIM SSL 3 🚀",
+      "FLAG": "tim",
+      "Payload": "GET ws://cdn.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cdn.c6bank.com.br",
+      "TlsIP": "104.16.237.16",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM SSL 4 🚀",
       "FLAG": "tim",
       "Payload": "GET ws://cdn.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "cdn.c6bank.com.br",
