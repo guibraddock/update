@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "ReleaseNotes": "Nova atualizacao disponivel \n 08/06/2022 \n CloudEasy Serviços na Internet ©",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/cloudeasyv1",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -225,7 +225,7 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
     {
       "Name": "OI TLS 03",
       "FLAG": "oi",
