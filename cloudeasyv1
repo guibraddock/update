@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "Nova atualizacao disponivel \n 08/06/2022 \n CloudEasy Serviços na Internet ©",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/cloudeasyv1",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
@@ -97,43 +97,73 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM SSL 1 🚀",
+      "Name": "🔵TIM [01]",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.16.19.94",
+      "Payload": "GET wss://texugo.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "texugo.alura.com.br",
+      "TlsIP": "texugo.alura.com.br",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM SSL 2 🚀",
+      "Name": "🔵TIM [02]",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "static.r4you.co",
       "TlsIP": "104.26.5.175",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM SSL 3 🚀",
+      "Name": "🔵TIM [03]",
       "FLAG": "tim",
-      "Payload": "GET ws://cdn.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "cdn.c6bank.com.br",
-      "TlsIP": "104.16.237.16",
+      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.4.175",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM SSL 4 🚀",
+      "Name": "🔵TIM [04]",
       "FLAG": "tim",
-      "Payload": "GET ws://cdn.c6bank.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "cdn.c6bank.com.br",
-      "TlsIP": "cdn.c6bank.com.br",
+      "Payload": "GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "172.67.70.43",
       "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM [05]",
+      "FLAG": "tim",
+      "Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "blog.alura.com.br",
+      "TlsIP": "blog.alura.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM [06]",
+      "FLAG": "tim",
+      "Payload": "GET wss://empresas.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "empresas.alura.com.br",
+      "TlsIP": "empresas.alura.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵TIM [07]",
+      "FLAG": "tim",
+      "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "www.alura.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
