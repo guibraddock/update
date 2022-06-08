@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.7",
-  "ReleaseNotes": "Nova atualizacao disponivel \n 08/06/2022 \n CloudEasy Serviços na Internet ©",
+  "Version": "1.0.8",
+  "ReleaseNotes": "Nova atualizacao disponivel \n 09/06/2022 \n CloudEasy Serviços na Internet ©",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/cloudeasyv1",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "cloudeasy@cloudeasybrasil.com.br",
@@ -137,31 +137,21 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM [05]",
+      "Name": "🔵TIM SSL 5",
       "FLAG": "tim",
-      "Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "blog.alura.com.br",
-      "TlsIP": "blog.alura.com.br",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cutim.com.br",
+      "TlsIP": "104.21.4.149",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM [06]",
+      "Name": "🔵TIM SSL 6",
       "FLAG": "tim",
-      "Payload": "GET wss://empresas.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "empresas.alura.com.br",
-      "TlsIP": "empresas.alura.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🔵TIM [07]",
-      "FLAG": "tim",
-      "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.alura.com.br",
-      "TlsIP": "www.alura.com.br",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.51.111",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
