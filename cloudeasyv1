@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.8",
-  "ReleaseNotes": "Nova atualizacao disponivel \n 09/06/2022 \n CloudEasy Serviços na Internet ©",
+  "Version": "1.0.9",
+  "ReleaseNotes": "Nova atualizacao disponivel \n V 1.0.9 \n CloudEasy Serviços na Internet ©",
   "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/cloudeasyv1",
   "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/smssocks",
   "EmailFeedback": "cloudeasy@cloudeasybrasil.com.br",
@@ -157,17 +157,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS",
-      "FLAG": "claro",
-      "Payload": "GET wss://No.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "No.descomplica.com.br",
-      "TlsIP": "N.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    }, 
-    {
-      "Name": "CLARO TLS 02",
+      "Name": "CLARO TLS LENTA",
       "FLAG": "claro",
       "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "content.akross.com.br",
@@ -177,7 +167,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO TLS 03",
+      "Name": "CLARO TLS",
       "FLAG": "claro",
       "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "atendimento.descomplica.com.br",
@@ -185,6 +175,86 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+    },
+    { 
+      "Name": "CLARO 1", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://Atendimento.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "Atendimento.descomplica.com.br", 
+      "TlsIP": "No.descomplica.com.br", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    {
+      "Name": "CLARO 2", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "ct.livestream.com", 
+      "TlsIP": "ct.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "CLARO 3", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://uploads.api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "uploads.api.new.livestream.com", 
+      "TlsIP": "uploads.api.new.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "CLARO 4", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://No.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "No.descomplica.com.br", 
+      "TlsIP": "No.descomplica.com.br", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "CLARO 5", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://lp.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "lp.livestream.com", 
+      "TlsIP": "lp.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "CLARO 6", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "vimeo.livestream.com", 
+      "TlsIP": "vimeo.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    { 
+      "Name": "CLARO 7", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "api.new.livestream.com", 
+      "TlsIP": "api.new.livestream.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
+    }, 
+    {
+      "Name": "CLARO 8", 
+      "FLAG": "claro", 
+      "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]", 
+      "SNI": "icanhazip.com", 
+      "TlsIP": "icanhazip.com", 
+      "ProxyIP": "", 
+      "ProxyPort": "443", 
+      "Info": "Tlsws" 
     },
     {
       "Name": "OI TLS",
