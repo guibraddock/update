@@ -2,15 +2,15 @@
     "Version": "2",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
-  🔰 Versão: 14/06/2023 Horas: 23:00 🔰\n
+  🔰 Versão: 15/06/2023 Horas: 07:00 🔰\n
 •••••••••••••••••••••••••••••••••••••••\n
-⚠️ ATUALIZAÇÃO NOVAS CONEXÕES ⚠️ \n
+⚠️ATUALIZAÇÃO NOVAS CONEXÕES⚠️ \n
 •••••••••••••••••••••••••••••••••••••••\n
-⚠️ GATO NET PREMIUM ⚠️ \n
+⚠️ GATONET PREMIUM ⚠️ \n
 •••••••••••••••••••••••••••••••••••••••\n
 🔰 Oferecido pelo Gui Braddock\n
 🔛 MANTENHA SEMPRE SEU APLICATIVO ATUALIZADO !\n
-===============================\n",
+=================================\n",
     "Sms": "https://raw.githubusercontent.com/guibraddock/update/main/gordinhosms",
     "UrlUpdate": "https://raw.githubusercontent.com/guibraddock/update/main/gordinhovpn",
     "EmailFeedback": "cloudeasyoficial@gmail.com",
@@ -28,7 +28,7 @@
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "br01.cloudeasyoficial.xyz",
-            "CheckUser": "http://br01check.cloudeasyoficial.xyz:5454/checkUser",
+            "CheckUser": "http://149.78.185.36:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
