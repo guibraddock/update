@@ -1,5 +1,5 @@
 {
-    "Version": "5",
+    "Version": "6",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
   🔰 Versão: 25/06/2023 Horas: 20:40 🔰\n
@@ -39,7 +39,7 @@
 {
       "Name": " VIVO e TIM",
       "FLAG": "tim",
-      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.godzera.online[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.185.36",
