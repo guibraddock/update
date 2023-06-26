@@ -1,8 +1,8 @@
 {
-    "Version": "8",
+    "Version": "9",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
-  🔰 Versão: 25/06/2023 Horas: 20:40 🔰\n
+  🔰 Versão: 25/06/2023 Horas: 21:30 🔰\n
 •••••••••••••••••••••••••••••••••••••••\n
 ⚠️ATUALIZAÇÃO NOVAS CONEXÕES⚠️ \n
 •••••••••••••••••••••••••••••••••••••••\n
@@ -36,46 +36,86 @@
         }
   ],
   "Networks": [
-{
-      "Name": " VIVO e TIM",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.godzera.online[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.185.36",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-   },
-    {
-      "Name": " VIVO e TIM",
+      {
+"Name": "VIVO SECURITY 1✅",
       "FLAG": "vivo",
-      "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: 172.67.202.138[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;v;mobile.google.com;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.36",
+      "ProxyIP": "193.123.96.156",
       "ProxyPort": "80",
       "Info": "Proxy"
-   },
+},
     {
-      "Name": " VIVO e TIM",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.godzera.online[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "149.78.185.36",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-   },
-    {
-      "Name": " VIVO e TIM",
+"Name": "VIVO SECURITY 2✅",
       "FLAG": "vivo",
-      "Payload": "[delay_split]ACL / HTTP/1.1[crlf]Host: 172.67.202.138[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.19.239.25",
+      "ProxyIP": "193.123.96.156",
       "ProxyPort": "80",
       "Info": "Proxy"
-   },
+},
+    {
+"Name": "VIVO SECURITY 3✅",
+      "FLAG": "vivo",
+      "Payload": "CONNECT 193.123.96.156 [protocol][crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "193.123.96.156",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+    {
+"Name": "VIVO SECURITY DD 92 4✅",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "193.123.96.156",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+    {
+"Name": "VIVO SECURITY DD 92 5✅",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: 193.123.96.156]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "193.123.96.156",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+    {
+"Name": "TIM SALDO EXPIRADO 1✅",
+      "FLAG": "tim",
+      "Payload": "MERGE ok.ru HTTP/1.1[crlf]Host: ok.ru[crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "193.123.96.156",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+    {
+"Name": "TIM SALDO EXPIRADO 2✅",
+      "FLAG": "tim",
+      "Payload": "PROPFIND m.youtube.com.br HTTP/1.1[crlf]Host: m.youtube.com.br[crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "193.123.96.156",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+},
+    {
+      "Name": "TIM SALVAÇÃO ✅",
+      "FLAG": "tim",
+      "Payload": "CONNECT / HTTP/1.9[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: rev2only.dragonncdn.online[crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.51.111",
+      "ProxyPort": "80",
+      "Info": "Proxy2"
+    }
     {
       "Name": "VIVO",
       "FLAG": "vivo",
