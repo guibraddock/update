@@ -1,8 +1,8 @@
 {
-    "Version": "10",
+    "Version": "11",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
-  🔰 Versão: 25/06/2023 Horas: 21:40 🔰\n
+  🔰 Versão: 28/06/2023 Horas: 21:20 🔰\n
 •••••••••••••••••••••••••••••••••••••••\n
 ⚠️ATUALIZAÇÃO NOVAS CONEXÕES⚠️ \n
 •••••••••••••••••••••••••••••••••••••••\n
@@ -27,8 +27,8 @@
             "Name": "OPERADORA ABAIXO",
             "TYPE": "premium",
             "FLAG": "br.png",
-            "ServerIP": "gatonet.godzera.online",
-            "CheckUser": "http://149.78.185.36:5454/checkUser",
+            "ServerIP": "br.gatonetvpn.cloud",
+            "CheckUser": "http://check.gatonetvpn.cloud:5454/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
             "USER": "",
