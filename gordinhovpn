@@ -1,8 +1,8 @@
 {
-    "Version": "12",
+    "Version": "13",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
-  🔰 Versão: 28/06/2023 Horas: 21:20 🔰\n
+  🔰 Versão: 05/06/2023 Horas: 14:45 🔰\n
 •••••••••••••••••••••••••••••••••••••••\n
 ⚠️ATUALIZAÇÃO NOVAS CONEXÕES⚠️ \n
 •••••••••••••••••••••••••••••••••••••••\n
@@ -72,8 +72,28 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.b-cdn.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "check.gatonetvpn.cloud",
+      "ProxyIP": "[app_host]",
       "ProxyPort": "80",
+      "Info": "Proxy"
+},
+{
+"Name": "VIVO SECURITY 2",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.b-cdn.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "check.gatonetvpn.cloud",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
+},
+{
+"Name": "VIVO SECURITY 3",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.b-cdn.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "8080",
       "Info": "Proxy"
 },
     {
