@@ -1,5 +1,5 @@
 {
-    "Version": "11",
+    "Version": "12",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
   🔰 Versão: 28/06/2023 Horas: 21:20 🔰\n
@@ -67,12 +67,12 @@
       "Info": "Proxy"
 },
     {
-"Name": "VIVO SECURITY DD 92 4✅",
+"Name": "VIVO SECURITY",
       "FLAG": "vivo",
-      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.b-cdn.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "149.78.185.36",
+      "ProxyIP": "check.gatonetvpn.cloud",
       "ProxyPort": "80",
       "Info": "Proxy"
 },
