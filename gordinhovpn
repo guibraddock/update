@@ -1,5 +1,5 @@
 {
-    "Version": "14",
+    "Version": "15",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
   🔰 Versão: 05/06/2023 Horas: 14:45 🔰\n
@@ -63,16 +63,6 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "149.78.185.36",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-},
-    {
-"Name": "VIVO SECURITY",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gatonet.b-cdn.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "[app_host]",
       "ProxyPort": "80",
       "Info": "Proxy"
 },
