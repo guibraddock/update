@@ -1,5 +1,5 @@
 {
-    "Version": "13",
+    "Version": "14",
     "ReleaseNotes": "
 ➡️ ATUALIZAÇÃO DISPONÍVEL ⬅️\n •••••••••••••••••••••••••••••••••••••\n
   🔰 Versão: 05/06/2023 Horas: 14:45 🔰\n
@@ -83,7 +83,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "check.gatonetvpn.cloud",
-      "ProxyPort": "8080",
+      "ProxyPort": "80",
       "Info": "Proxy"
 },
 {
